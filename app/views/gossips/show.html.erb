@@ -1,0 +1,15 @@
+<br><br><br><br><br><br><br><br>
+
+<h1 class="text-center">Thanks <%= current_moussaillon.username %></h1>
+<br>
+<h3 class="text-center">Feels good, right ?</h3><br>
+<br><br>
+
+<blockquote class="blockquote text-center">
+ <p class="mb-0"><%= @gossip.content %></p>
+ <footer class="blockquote-footer">written by <cite title="Source Title"><%= current_moussaillon.username %></cite></footer>
+ <p class="blockquote-footer" class="mb-0">Created at <%= @gossip.created_at %></p>
+</blockquote>
+
+<br><br>
+

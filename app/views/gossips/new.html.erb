@@ -1,0 +1,17 @@
+<h3>NEW GOSSIP</h3>
+
+<br>
+
+
+<%= form_for @new_gossip do |gossip| -%>
+
+    <div class="form-group">
+      <%= gossip.label "Tell us everything..." %>
+      <%= gossip.text_area :content, class: "form-control" %>
+    </div>
+
+    <%= gossip.submit class: "btn btn-primary" %>
+
+  <% end -%>
+
+</form>
